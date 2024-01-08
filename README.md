@@ -28,6 +28,8 @@ collector.
   - golang >= 1.19
   - docker/docker-compose for running tests
 
+For Debian you can build the module inside a Docker container by running: `docker build . --platform linux/x86_64`.
+
 ## Installation
 
 > **_NOTE:_** Prebuild modules are available at [GitHub](https://github.com/ConSol/apache_mod_prometheus_status/releases)
